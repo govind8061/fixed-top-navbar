@@ -1,0 +1,30 @@
+body{
+	background-color: white;
+	margin: 0;
+}
+.container{
+	display: flex;
+	background-color: darkred;
+	padding: 10px;
+	top: 0;
+	width: 100%;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+	color: white;
+}
+.nav-home{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.item-ic{
+	margin-right: 20px;
+}
+.content{
+	position: absolute;
+	margin-top: 40px;
+	z-index: 0;
+}
